@@ -1,0 +1,165 @@
+PART 1
+Question 1:
+-----------
+C:\Users\Josh Richards\Google Drive\Uni\2020\COMP307\A1\IntroToMachineLearning\src\part_1>python k_nearest_neighbour.py data\wine-training data\wine-test
+Input the K value desired: 1
+For K=1
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 3
+Actual Class: 2, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 3
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 3
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 3
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 3, Predicted Class: 3
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 3
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 3
+Actual Class: 2, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 3
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 3
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 3
+Actual Class: 2, Predicted Class: 3
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 3, Predicted Class: 2
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 3
+Actual Class: 1, Predicted Class: 2
+Actual Class: 3, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 3
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 3
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 3
+Actual Class: 2, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 3
+Actual Class: 2, Predicted Class: 3
+Actual Class: 3, Predicted Class: 3
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 3
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 3
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 3
+Actual Class: 2, Predicted Class: 3
+Actual Class: 2, Predicted Class: 3
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 2, Predicted Class: 2
+Actual Class: 3, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Actual Class: 1, Predicted Class: 1
+Actual Class: 2, Predicted Class: 2
+Actual Class: 1, Predicted Class: 1
+Percentage Correct = 70
+
+
+Question 2:
+-----------
+Percentage Correct = 69
+The percentage correct for a k=3 is less than that of k=1
+
+Make Comment Here???
+
+
+Question 3:
+-----------
+Advantages include
+- simple and easy to understand and implement making it a
+good introduction to the topic
+- immediately adapts to new training data as it is added
+and is quick to get going as there is no actual "training step"
+
+Disadvantages include
+- unknown what the ideal number for k should be meaning it is
+often unknown how to use the algorithm to its full potential
+- doesn't adjust well to imbalanced, outlier or missing data
+limiting the algorithms versatility
+
+
+Question 4:
+-----------
+1. divide both the test and training data into 5 equal parts
+2. first put the 1st set of test data in and 2nd-5th sets in of training
+data
+3. then put the 2nd set of test data in and the 1st and 3rd-5th sets
+of training data into the program
+4. continue on until the program has been run 5 times and all test parts
+have been compared to the training data and you have all of the classifications
+5. then average the results of those 5 processes and the output will be the
+desired classifications from that K-fold cross validation
+
+
+Question 5:
+-----------
+You would use the K-means clustering method with k = 3
+1. puts 3 centroids randomly on the plane
+2. for each point in the data find the nearest centroid (smallest euclidean
+distance) and then assign that point to that centroid
+3. for each cluster calculate a new centroid based on the mean of the
+points that are assigned to that cluster
+4. repeat 2 and 3 until nothing changes in the clusters assignments
+
+
+
+
+PART 2
+Question 1:
+-----------
+
+
+
+Question 2:
+-----------
+
+
+
+Question 3:
+-----------
+
+
+
+Question 4:
+-----------
