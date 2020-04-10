@@ -10,8 +10,9 @@ class Instance:
 
 # A node with children
 class Node:
-    def __init__(self, att, left, right):
+    def __init__(self, att, att_num, left, right):
         self.att = att
+        self.att_num = att_num
         self.left = left
         self.right = right
 
@@ -36,7 +37,7 @@ class LeafNode:
 # Classifies the instance
 def build_tree(data_set, attributes):
     if not data_set:  # if the data_set given is empty
-        return LeafNode(majority_class(training_set)[0], majority_class(training_set)[1])  # fix
+        return LeafNode(majority_class(training_set)[0], majority_class(training_set)[1]/len(training_set))  # fix
     if purity(data_set) == 1:  # checks if there is only 1 class type
         return LeafNode(data_set[0].values[0], 1)
     if not attributes:  # if attributes given is empty
@@ -66,13 +67,32 @@ def build_tree(data_set, attributes):
     removed_attributes.append(best_att)
     left = build_tree(best_true, attributes)
     right = build_tree(best_false, attributes)
-    return Node(get_attributes()[best_att], left, right)
+    return Node(get_attributes()[best_att], best_att, left, right)
+
+
+# determine the accuracy of
+def get_algorithm_accuracy(test_data_set):
+    correct_count = 0
+    for instance in test_data_set:
+        if instance_class(instance, tree) == instance.values[0]:
+            correct_count += 1
+    print("\n\nAlgorithm Accuracy = ", correct_count/len(test_data_set))
+
+
+# gets the predicted class of the instance from the built tree
+def instance_class(instance, node):
+    if isinstance(node, LeafNode):
+        return node.name
+    if instance.values[node.att_num] == "true":
+        return instance_class(instance, node.left)
+    else:
+        return instance_class(instance, node.right)
 
 
 # Parses a file and turns it into a list of instances
-def file_parser():
+def file_parser(file_num):
     instances = list()
-    with open(sys.argv[-2]) as f:
+    with open(sys.argv[file_num]) as f:
         lines = [line.rstrip() for line in f]
     for line in lines[1:]:
         instance_value_list = line.split()
@@ -117,7 +137,10 @@ def majority_class(train_set):
 
 # Main code
 if __name__ == '__main__':
-    training_set = file_parser()  # First file
-    # test_set = file_parser()  # Second file
-    attributes_input = get_attributes()
-    build_tree(training_set, attributes_input).report("")
+    training_set = file_parser(-2)  # First file
+    test_set = file_parser(-1)  # Second file
+    attributes_input = get_attributes()  # Gets Attributes from first file
+    tree = build_tree(training_set, attributes_input)  # Builds tree
+    tree.report("")  # Prints tree
+    get_algorithm_accuracy(test_set)  # Checks tree against a test set
+    print(majority_class(training_set)[1]/len(training_set))

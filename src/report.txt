@@ -148,8 +148,104 @@ points that are assigned to that cluster
 PART 2
 Question 1:
 -----------
+FEMALE  = True:
+     Class =  live  , Prob =  1
+ FEMALE  = False:
+     SPLEENPALPABLE  = True:
+         ANOREXIA  = True:
+             AGE  = True:
+                 Class =  live  , Prob =  1
+             AGE  = False:
+                 ASCITES  = True:
+                     VARICES  = True:
+                         MALAISE  = True:
+                             BILIRUBIN  = True:
+                                 Class =  live  , Prob =  1
+                             BILIRUBIN  = False:
+                                 SGOT  = True:
+                                     Class =  live  , Prob =  1
+                                 SGOT  = False:
+                                     ANTIVIRALS  = True:
+                                         SPIDERS  = True:
+                                             STEROID  = True:
+                                                 Class =  live  , Prob =  1
+                                             STEROID  = False:
+                                                 FIRMLIVER  = True:
+                                                     Class =  live  , Prob =  1
+                                                 FIRMLIVER  = False:
+                                                     Class =  die  , Prob =  1
+                                         SPIDERS  = False:
+                                             STEROID  = True:
+                                                 Class =  die  , Prob =  1
+                                             STEROID  = False:
+                                                 Class =  live  , Prob =  1
+                                     ANTIVIRALS  = False:
+                                         Class =  live  , Prob =  1
+                         MALAISE  = False:
+                             FIRMLIVER  = True:
+                                 Class =  live  , Prob =  1
+                             FIRMLIVER  = False:
+                                 HISTOLOGY  = True:
+                                     Class =  live  , Prob =  1
+                                 HISTOLOGY  = False:
+                                     Class =  die  , Prob =  1
+                     VARICES  = False:
+                         Class =  die  , Prob =  1
+                 ASCITES  = False:
+                     Class =  die  , Prob =  1
+         ANOREXIA  = False:
+             BILIRUBIN  = True:
+                 BIGLIVER  = True:
+                     AGE  = True:
+                         Class =  die  , Prob =  1
+                     AGE  = False:
+                         SPIDERS  = True:
+                             Class =  live  , Prob =  1
+                         SPIDERS  = False:
+                             ASCITES  = True:
+                                 Class =  live  , Prob =  1
+                             ASCITES  = False:
+                                 Class =  die  , Prob =  1
+                 BIGLIVER  = False:
+                     Class =  die  , Prob =  1
+             BILIRUBIN  = False:
+                 Class =  live  , Prob =  1
+     SPLEENPALPABLE  = False:
+         FATIGUE  = True:
+             Class =  live  , Prob =  1
+         FATIGUE  = False:
+             ANTIVIRALS  = True:
+                 ASCITES  = True:
+                     BILIRUBIN  = True:
+                         VARICES  = True:
+                             AGE  = True:
+                                 Class =  die  , Prob =  1
+                             AGE  = False:
+                                 STEROID  = True:
+                                     Class =  live  , Prob =  1
+                                 STEROID  = False:
+                                     Class =  die  , Prob =  1
+                         VARICES  = False:
+                             Class =  live  , Prob =  1
+                     BILIRUBIN  = False:
+                         Class =  die  , Prob =  1
+                 ASCITES  = False:
+                     MALAISE  = True:
+                         BIGLIVER  = True:
+                             Class =  die  , Prob =  1
+                         BIGLIVER  = False:
+                             Class =  live  , Prob =  1
+                     MALAISE  = False:
+                         Class =  live  , Prob =  1
+             ANTIVIRALS  = False:
+                 Class =  live  , Prob =  1
 
 
+Algorithm Accuracy =  0.68
+Baseline Accuracy = 0.8125
+
+The baseline accuracy is actually higher than the algorithm accuracy.
+This is because the data set is highly imbalanced in favor of Live data
 
 Question 2:
 -----------
