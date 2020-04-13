@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172559f4-2153-435b-9185-c0876336d78f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/part_2/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_2/decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part_2/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_2/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/report.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/report.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +120,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

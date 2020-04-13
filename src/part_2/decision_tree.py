@@ -143,4 +143,4 @@ if __name__ == '__main__':
     tree = build_tree(training_set, attributes_input)  # Builds tree
     tree.report("")  # Prints tree
     get_algorithm_accuracy(test_set)  # Checks tree against a test set
-    print(majority_class(training_set)[1]/len(training_set))
+    print("Baseline Accuracy = ", majority_class(training_set)[1]/len(training_set))
