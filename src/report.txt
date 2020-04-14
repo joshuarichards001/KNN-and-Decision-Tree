@@ -1,108 +1,113 @@
 PART 1
 Question 1:
 -----------
-C:\Users\Josh Richards\Google Drive\Uni\2020\COMP307\A1\IntroToMachineLearning\src\part_1>python k_nearest_neighbour.py data\wine-training data\wine-test
+python k_nearest_neighbour.py data\wine-training data\wine-test
 Input the K value desired: 1
 For K=1
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 3
-Actual Class: 2, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 3
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 3
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 3
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 3, Predicted Class: 3
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 3
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 3
-Actual Class: 2, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 3
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 3
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 3
-Actual Class: 2, Predicted Class: 3
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 3, Predicted Class: 2
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 3
-Actual Class: 1, Predicted Class: 2
-Actual Class: 3, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 3
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 3
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 3
-Actual Class: 2, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 3
-Actual Class: 2, Predicted Class: 3
-Actual Class: 3, Predicted Class: 3
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 3
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 3
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 3
-Actual Class: 2, Predicted Class: 3
-Actual Class: 2, Predicted Class: 3
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 2, Predicted Class: 2
-Actual Class: 3, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Actual Class: 1, Predicted Class: 1
-Actual Class: 2, Predicted Class: 2
-Actual Class: 1, Predicted Class: 1
-Percentage Correct = 70
+Wine: 0, Actual Class: 3, Predicted Class: 3
+Wine: 1, Actual Class: 3, Predicted Class: 3
+Wine: 2, Actual Class: 3, Predicted Class: 3
+Wine: 3, Actual Class: 1, Predicted Class: 1
+Wine: 4, Actual Class: 1, Predicted Class: 1
+Wine: 5, Actual Class: 1, Predicted Class: 1
+Wine: 6, Actual Class: 2, Predicted Class: 1
+Wine: 7, Actual Class: 2, Predicted Class: 2
+Wine: 8, Actual Class: 1, Predicted Class: 1
+Wine: 9, Actual Class: 2, Predicted Class: 2
+Wine: 10, Actual Class: 2, Predicted Class: 2
+Wine: 11, Actual Class: 2, Predicted Class: 3
+Wine: 12, Actual Class: 3, Predicted Class: 3
+Wine: 13, Actual Class: 3, Predicted Class: 3
+Wine: 14, Actual Class: 1, Predicted Class: 1
+Wine: 15, Actual Class: 2, Predicted Class: 2
+Wine: 16, Actual Class: 3, Predicted Class: 3
+Wine: 17, Actual Class: 3, Predicted Class: 3
+Wine: 18, Actual Class: 1, Predicted Class: 1
+Wine: 19, Actual Class: 1, Predicted Class: 1
+Wine: 20, Actual Class: 3, Predicted Class: 3
+Wine: 21, Actual Class: 2, Predicted Class: 2
+Wine: 22, Actual Class: 2, Predicted Class: 2
+Wine: 23, Actual Class: 3, Predicted Class: 3
+Wine: 24, Actual Class: 2, Predicted Class: 2
+Wine: 25, Actual Class: 2, Predicted Class: 3
+Wine: 26, Actual Class: 2, Predicted Class: 2
+Wine: 27, Actual Class: 3, Predicted Class: 3
+Wine: 28, Actual Class: 2, Predicted Class: 2
+Wine: 29, Actual Class: 1, Predicted Class: 1
+Wine: 30, Actual Class: 2, Predicted Class: 2
+Wine: 31, Actual Class: 1, Predicted Class: 1
+Wine: 32, Actual Class: 2, Predicted Class: 2
+Wine: 33, Actual Class: 1, Predicted Class: 1
+Wine: 34, Actual Class: 2, Predicted Class: 2
+Wine: 35, Actual Class: 2, Predicted Class: 2
+Wine: 36, Actual Class: 2, Predicted Class: 2
+Wine: 37, Actual Class: 2, Predicted Class: 2
+Wine: 38, Actual Class: 2, Predicted Class: 2
+Wine: 39, Actual Class: 1, Predicted Class: 1
+Wine: 40, Actual Class: 2, Predicted Class: 2
+Wine: 41, Actual Class: 2, Predicted Class: 2
+Wine: 42, Actual Class: 3, Predicted Class: 3
+Wine: 43, Actual Class: 1, Predicted Class: 1
+Wine: 44, Actual Class: 2, Predicted Class: 2
+Wine: 45, Actual Class: 1, Predicted Class: 1
+Wine: 46, Actual Class: 3, Predicted Class: 3
+Wine: 47, Actual Class: 2, Predicted Class: 2
+Wine: 48, Actual Class: 2, Predicted Class: 2
+Wine: 49, Actual Class: 1, Predicted Class: 1
+Wine: 50, Actual Class: 3, Predicted Class: 3
+Wine: 51, Actual Class: 1, Predicted Class: 1
+Wine: 52, Actual Class: 1, Predicted Class: 1
+Wine: 53, Actual Class: 3, Predicted Class: 3
+Wine: 54, Actual Class: 3, Predicted Class: 3
+Wine: 55, Actual Class: 1, Predicted Class: 1
+Wine: 56, Actual Class: 1, Predicted Class: 1
+Wine: 57, Actual Class: 3, Predicted Class: 3
+Wine: 58, Actual Class: 1, Predicted Class: 1
+Wine: 59, Actual Class: 3, Predicted Class: 3
+Wine: 60, Actual Class: 3, Predicted Class: 3
+Wine: 61, Actual Class: 2, Predicted Class: 1
+Wine: 62, Actual Class: 2, Predicted Class: 2
+Wine: 63, Actual Class: 3, Predicted Class: 3
+Wine: 64, Actual Class: 2, Predicted Class: 2
+Wine: 65, Actual Class: 3, Predicted Class: 3
+Wine: 66, Actual Class: 3, Predicted Class: 3
+Wine: 67, Actual Class: 1, Predicted Class: 1
+Wine: 68, Actual Class: 1, Predicted Class: 1
+Wine: 69, Actual Class: 2, Predicted Class: 2
+Wine: 70, Actual Class: 2, Predicted Class: 1
+Wine: 71, Actual Class: 3, Predicted Class: 3
+Wine: 72, Actual Class: 2, Predicted Class: 2
+Wine: 73, Actual Class: 2, Predicted Class: 2
+Wine: 74, Actual Class: 1, Predicted Class: 1
+Wine: 75, Actual Class: 1, Predicted Class: 1
+Wine: 76, Actual Class: 1, Predicted Class: 1
+Wine: 77, Actual Class: 3, Predicted Class: 3
+Wine: 78, Actual Class: 1, Predicted Class: 1
+Wine: 79, Actual Class: 1, Predicted Class: 1
+Wine: 80, Actual Class: 2, Predicted Class: 2
+Wine: 81, Actual Class: 2, Predicted Class: 2
+Wine: 82, Actual Class: 3, Predicted Class: 3
+Wine: 83, Actual Class: 1, Predicted Class: 1
+Wine: 84, Actual Class: 2, Predicted Class: 2
+Wine: 85, Actual Class: 1, Predicted Class: 1
+Wine: 86, Actual Class: 1, Predicted Class: 1
+Wine: 87, Actual Class: 2, Predicted Class: 2
+Wine: 88, Actual Class: 1, Predicted Class: 1
+Accuracy =  0.9438202247191011 (94.4%)
 
 
 Question 2:
 -----------
-Percentage Correct = 69
-The percentage correct for a k=3 is less than that of k=1
+Accuracy =  0.9550561797752809 (95.5%)
 
-The data is not in distinct clusters as a more accurate higher value for
-K would indicate that the classes would be in defined clusters
+The percentage for a k=1 is less than that of k=3
+
+This is because the class is determined from the most frequent class
+out of that wines three nearest neighbors rather than its single
+nearest neighbor. This improves the accuracy because it accounts
+for situations where there is as outlier wine very close to
+another wine with different classes. k of 3 will notice this and
+ignore that single outlier piece of data.
 
 
 Question 3:

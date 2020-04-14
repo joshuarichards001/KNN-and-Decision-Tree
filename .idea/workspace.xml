@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="172559f4-2153-435b-9185-c0876336d78f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_1/k_nearest_neighbour.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_1/k_nearest_neighbour.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/part_2/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_2/decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part_2/report.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/report.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +26,7 @@
   <component name="ProjectId" id="1ZMv2wXGC4rnfWrnHolDcgZxDEd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/part_1/data" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
