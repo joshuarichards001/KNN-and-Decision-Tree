@@ -3,8 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="172559f4-2153-435b-9185-c0876336d78f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/part_1/k_nearest_neighbour.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_1/k_nearest_neighbour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_1/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_1/data/wine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_1/data/wine-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_1/data/wine-training" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_1/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_1/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/golf-test.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/golf-training.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/golf.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/helper-code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-test-run-9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/hepatitis-training-run-9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/data/split-datafile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/part_2/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_2/decision_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part_2/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/part_2/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/report.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

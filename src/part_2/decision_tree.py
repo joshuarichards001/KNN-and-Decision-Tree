@@ -74,6 +74,7 @@ def build_tree(instances, attributes):
     return Node(best_attribute_index, left, right)
 
 
+# Gets the most pure attribute from the given instances and attributes
 def get_best_attribute(instances, attributes):
     best_att_purity = 1
     best_att_index = 0
